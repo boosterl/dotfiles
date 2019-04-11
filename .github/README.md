@@ -11,4 +11,4 @@ dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-This is inspired by the [these](https://github.com/Vincevrp/dotfiles) dotfiles.
+This is inspired by [these](https://github.com/Vincevrp/dotfiles) dotfiles.
