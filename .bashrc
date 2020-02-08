@@ -17,6 +17,10 @@ export PATH="$PATH:$HOME/Projects/go/bin"
 # Set keybindings to vi
 set -o vi
 
+# Keep bash history forever
+HISTSIZE= 
+HISTFILESIZE=
+
 # Set powerline options:
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
