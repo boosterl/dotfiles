@@ -1,6 +1,9 @@
 # Include my accounts
 source ~/.mutt/accounts
 
+# Include my mailboxes
+source ~/.mutt/mailboxes
+
 # Set my editor to vim
 set editor = vim
 
@@ -22,7 +25,7 @@ set mail_check = 120
 #
 # A more pleasent colorscheme IMH0
 #
-color normal black default
+color normal default default
 color status color123 color36
 color error red default
 color indicator color28 color194
@@ -55,7 +58,8 @@ color body color124 color223 "^(gpg: (Can't check signature|BAD signature from.*
 # Sidebar stuff
 set sidebar_visible
 set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
-set mail_check_stats
+#set mail_check_stats
+
 # Move the highlight to the previous mailbox
 bind index,pager \Cp sidebar-prev
 
