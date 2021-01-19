@@ -35,6 +35,5 @@ alias gstat="git status"
 alias glog="git log"
 alias gdiff="git diff"
 alias weather="curl wttr.in"
-alias cat="lolcat"
 # This is the alias is used for my bare git repo containing my dotfiles
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
