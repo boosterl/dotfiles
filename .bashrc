@@ -8,8 +8,8 @@
 PS1='[\u@\h \W]\$ '
 
 # Set GOPATH
-export GOPATH="$HOME/Projects/go"
-export PATH="$PATH:$HOME/Projects/go/bin"
+export GOPATH="$HOME/projects/go"
+export PATH="$PATH:$HOME/projects/go/bin"
 
 # For winter jingles:
 #PS1='[\u ❄ \h \W 🎄🎁]\$ '
